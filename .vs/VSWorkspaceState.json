@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Pattern Algorithm",
+    "\\Pose Estimation"
   ],
+  "SelectedNode": "\\Pose Estimation\\pose_estimation.py",
   "PreviewInSolutionExplorer": false
 }
