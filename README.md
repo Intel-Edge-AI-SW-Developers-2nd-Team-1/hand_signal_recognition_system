@@ -57,5 +57,5 @@ robot control system based on hand signal(ex. airport) recognition
 ## commit 규칙
 - commit message: code 제목
   ```
-  git commit -m "**system_server.c**"
+  git commit -m "system_server.c"
   ```
