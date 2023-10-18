@@ -8,8 +8,7 @@ Mediapipe가 제공하는 모듈 중에 사람을 탐지하여 사람의 Pose를
 (어떤 부분이 추출되고 시각화되는지는 사진2 참조)
 
 ## 사진1
-그림
-그림
+![33point](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/147671780/1ad651dd-d0ec-4f3c-9f7b-bead3a5910f6)
 0 - nose,
 1 - left eye (inner),
 2 - left eye,
@@ -46,6 +45,7 @@ Mediapipe가 제공하는 모듈 중에 사람을 탐지하여 사람의 Pose를
 
 
 ## 사진2
-사진2
+![pose_estimation_image](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/147671780/389a6ea2-f2d3-4291-a9f2-4574261bd832)
+![pose_estimation_plot](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/147671780/f7d3df30-fc2f-452a-ba62-d9e83341ea17)
 
 
