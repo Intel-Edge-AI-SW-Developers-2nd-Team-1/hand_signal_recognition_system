@@ -17,7 +17,6 @@ robot control system based on hand signal(ex. airport) recognition
 - Project Leader
 - Git Manager
 - Image Processing(Pattern Recognition Algorithm)
-- Client Tx
 - Create Deliverables for Develop
 
 **안석현**
@@ -26,18 +25,17 @@ robot control system based on hand signal(ex. airport) recognition
 - Create Deliverables for Develop
 
 **권춘구**
-- Client(TuttleBot) Action
+- Client Action
   
 **안현홍**
-- Client(TuttleBot) Communication
+- Client Rx
 - Create Deliverables for Develop
 
 **박재병**
-- Server(Linux) Rx
 - Create Deliverables for Develop
   
 **한정재**
-- Server(Linux) Tx
+- Server Tx
 
 ## How to manage
 1. manager가 PR을 확인하고 merge
