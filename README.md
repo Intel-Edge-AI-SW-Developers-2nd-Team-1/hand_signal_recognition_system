@@ -20,7 +20,7 @@ robot control system based on hand signal(ex. airport) recognition
 - Create Deliverables for Develop
 
 **안석현**
-- Project Communitor(Overall)
+- Project Communicator(Overall)
 - Image Processing(Pose Estimaion)
 - Create Deliverables for Develop
 
