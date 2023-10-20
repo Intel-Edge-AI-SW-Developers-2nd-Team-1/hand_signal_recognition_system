@@ -14,10 +14,15 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
+import sys
+import os
+import time
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+from PatternRecognition.pattern_recognition_module import PatternRecognition
 # pose_landmarker_lite.task를 아래 링크에 들어가서 Models 부분에서 다운 받기
 # https://developers.google.com/mediapipe/solutions/vision/pose_landmarker
 
-class poseEstimation:
+class PoseEstimation:
     # 찾은 Point들을 원본 이미지에 표현
     def __init__(self, x, y, z):
         # 사용할 지점 0, 11:16, 23:28
@@ -33,6 +38,7 @@ class poseEstimation:
                     "30 - right heel", "31 - left foot index", "32 - right foot index"]
         self.model_path = 'C:\pywork\pose_landmarker_lite.task'
         self.x, self.y, self.z = x, y, z
+        self.currTime, self.prevTime = 0, 0
 
     def drawLandmarksOnImage(self, rgb_image, detection_result):
         pose_landmarks_list = detection_result.pose_landmarks
@@ -86,8 +92,8 @@ class poseEstimation:
         fig = plt.figure()
         ax = fig.add_subplot(111)  # 1개의 plot인 ax를 (1,1)지점에 구현
         self.xlxsSettings()
+        pr = PatternRecognition()
         while True:
-
             # 카메라에서 프레임 읽기
             ret, frame = cap.read()
 
@@ -110,7 +116,7 @@ class poseEstimation:
             cv2.imshow("image", cv2.cvtColor(annotated_image, cv2.COLOR_RGB2BGR))
 
             # STEP 5.1 : result to xlsx
-            if(detection_result.pose_landmarks.__len__() != 1):continue #사람이 탐색 되지않으면 아랫부분 시행 중지
+            if(detection_result.pose_landmarks.__len__() != 1): continue #사람이 탐색 되지않으면 아랫부분 시행 중지
             for i in range(0,32,1):
                 self.sheet.cell(row=i + 2, column=1).value = self.position[i]
                 self.sheet.cell(row=i + 2, column=2).value = detection_result.pose_landmarks[0][i].x
@@ -130,12 +136,19 @@ class poseEstimation:
                     self.y[i - 16] = 5-1.5 * detection_result.pose_landmarks[0][i].y
                     self.z[i - 16] = detection_result.pose_landmarks[0][i].z
             self.workbook.save('landmarks.xlsx')
-            
+
             #5.2 실시간 주요포인트 시연
             ax.clear()#이전에 그린 plot 초기화
             plt.scatter(self.x, self.y)#산점도 plot에 그리기
             plt.draw()#현재 plot 시각화
             plt.pause(0.005)#시각화한 plot을 보여주기위해 잠깐대기
+
+            #6 패턴 인식
+            self.currTime = time.time()
+            if self.currTime - self.prevTime > 0.03:
+                self.prevTime = self.currTime
+                pr.setPosition(self.x, self.y, self.z)
+                pr.recognizePtrn()
 
             # 'q' 키를 누르면 종료
             if cv2.waitKey(1) & 0xFF == ord('q'):
