@@ -1,0 +1,2 @@
+Connectivity - USART2 활성화
+USART2 - Parameter Settings - Baud Rate = 9600 Bits/s로 변경 - NVIC Settings - USART2 global interrupt - Enabled활성화
