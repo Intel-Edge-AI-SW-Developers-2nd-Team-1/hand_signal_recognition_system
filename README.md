@@ -16,26 +16,30 @@ robot control system based on hand signal(ex. airport) recognition
 **김영대**
 - Project Leader
 - Git Manager
-- Image Processing(Pattern Recognition Algorithm)
+- Pattern Recognition Algorithm
 - Create Deliverables for Develop
 
 **안석현**
-- Project Communicator(Overall)
-- Image Processing(Pose Estimaion)
+- Project Communication
+- System Integration
+- Image Processing for Pose Estimaion
 - Create Deliverables for Develop
 
 **권춘구**
 - Client Action
+- Create Deliverables for Communication
   
 **안현홍**
 - Client Rx
 - Create Deliverables for Develop
 
 **박재병**
-- Create Deliverables for Develop
+- Hardware
+- Create Deliverables for Develop 
   
 **한정재**
 - Server Tx
+- Create Deliverables for Develop 
 
 ## How to manage
 1. manager가 PR을 확인하고 merge
