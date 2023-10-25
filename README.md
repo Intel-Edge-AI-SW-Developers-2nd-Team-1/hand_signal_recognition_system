@@ -9,7 +9,12 @@ robot control system based on hand signal(ex. airport) recognition
 4. 전송 받은 결과를 ROS에 보내어 결과에 맞는 제어를 수행(권춘구, 안현홍 담당)
    
 ![스크린샷 2023-10-16 132324](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/3a1a08d7-071d-41fd-b6f4-3df8b84cc534)
-![스크린샷 2023-10-16 135937](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/9e1cde85-2240-4769-9bc6-59493f038555)
+<p align="center">
+  <img src="https://github.com/roby238/HandSignalRecognitionSystem/files/13163455/default.pptx" alt="Sublime's custom image"/>
+</p>
+<p align="center">
+  <img src="https://github.com/roby238/HandSignalRecognitionSystem/assets/45201672/623bb78d-727e-46b1-9f77-5704f5530e27" alt="Sublime's custom image"/>
+</p>
 
 ## contributors
 
