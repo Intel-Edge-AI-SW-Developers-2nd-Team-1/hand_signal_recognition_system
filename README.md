@@ -10,8 +10,9 @@ robot control system based on hand signal(ex. airport) recognition
    
 ![스크린샷 2023-10-16 132324](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/3a1a08d7-071d-41fd-b6f4-3df8b84cc534)
 <p align="center">
-  <img src="https://github.com/roby238/HandSignalRecognitionSystem/files/13163455/default.pptx" alt="Sublime's custom image"/>
+  <img src="[default.pptx](https://github.com/roby238/HandSignalRecognitionSystem/files/13163484/default.pptx)" alt="Sublime's custom image"/>
 </p>
+
 <p align="center">
   <img src="https://github.com/roby238/HandSignalRecognitionSystem/assets/45201672/623bb78d-727e-46b1-9f77-5704f5530e27" alt="Sublime's custom image"/>
 </p>
