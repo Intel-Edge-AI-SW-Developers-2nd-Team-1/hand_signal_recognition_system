@@ -7,11 +7,11 @@ robot control system based on hand signal(ex. airport) recognition
 2. 전송 받은 사진을 OpenCV와 Mediapipe를 이용해 관절부를 탐색(안석현 담당)
 3. 탐색한 관절부의 이동을 알고리즘을 통해 분석 후 결과를 Tuttle Bot 라즈베리로 전송(김영대 담당)
 4. 전송 받은 결과를 ROS에 보내어 결과에 맞는 제어를 수행(권춘구, 안현홍 담당)
-   
-![시스템 구조도](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/3a1a08d7-071d-41fd-b6f4-3df8b84cc534)
-<div align=center> ![흐름도](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/91695124-abfc-46d5-a865-38b4878fe071) </div>
-<img align=center; src = "https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/a244eb5d-c6be-4d21-ba81-97ba84b17ce2">
-
+<div align=center>   
+   <img src = "https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/3a1a08d7-071d-41fd-b6f4-3df8b84cc534">
+   <img src = "https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/91695124-abfc-46d5-a865-38b4878fe071">
+   <img src = "https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/a244eb5d-c6be-4d21-ba81-97ba84b17ce2">
+</div>
 ## contributors
 
 **김영대**
