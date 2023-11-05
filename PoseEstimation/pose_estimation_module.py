@@ -21,6 +21,8 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from PatternRecognition.pattern_recognition_module import PatternRecognition
 # pose_landmarker_lite.task를 아래 링크에 들어가서 Models 부분에서 다운 받기
 # https://developers.google.com/mediapipe/solutions/vision/pose_landmarker
+from ble.ble_module import blebt00
+
 
 class PoseEstimation:
     # 찾은 Point들을 원본 이미지에 표현
@@ -93,6 +95,8 @@ class PoseEstimation:
         ax = fig.add_subplot(111)  # 1개의 plot인 ax를 (1,1)지점에 구현
         self.xlxsSettings()
         pr = PatternRecognition()
+        bt = blebt00()
+        bt07socekt = bt.bleconnect()
         while True:
             # 카메라에서 프레임 읽기
             ret, frame = cap.read()
@@ -148,7 +152,11 @@ class PoseEstimation:
             if self.currTime - self.prevTime > 0.03:
                 self.prevTime = self.currTime
                 pr.setPosition(self.x, self.y, self.z)
-                pr.recognizePtrn()
+                ptrn = pr.recognizePtrn()
+
+                # bt 잡혔으면  보내는 코드
+                if ptrn:
+                    bt07socekt.send("order " + str(ptrn) + "\r\n")
 
             # 'q' 키를 누르면 종료
             if cv2.waitKey(1) & 0xFF == ord('q'):
