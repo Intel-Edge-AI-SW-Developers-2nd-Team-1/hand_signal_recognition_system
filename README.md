@@ -8,9 +8,9 @@ robot control system based on hand signal(ex. airport) recognition
 3. 탐색한 관절부의 이동을 알고리즘을 통해 분석 후 결과를 Tuttle Bot 라즈베리로 전송(김영대 담당)
 4. 전송 받은 결과를 ROS에 보내어 결과에 맞는 제어를 수행(권춘구, 안현홍 담당)
    
-![스크린샷 2023-10-16 132324](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/3a1a08d7-071d-41fd-b6f4-3df8b84cc534)
-[개념도.pptx](https://github.com/roby238/HandSignalRecognitionSystem/files/13163506/default.pptx)
-[default.pptx](https://github.com/roby238/HandSignalRecognitionSystem/files/13163501/default.pptx)
+![시스템 구조도](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/3a1a08d7-071d-41fd-b6f4-3df8b84cc534)
+![흐름도](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/91695124-abfc-46d5-a865-38b4878fe071)
+![순서도](https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/29451101-fabf-4804-a6ee-a573426cbed9)
 <p align="center">
   <img src="https://github.com/roby238/HandSignalRecognitionSystem/assets/45201672/623bb78d-727e-46b1-9f77-5704f5530e27" alt="Sublime's custom image"/>
 </p>
