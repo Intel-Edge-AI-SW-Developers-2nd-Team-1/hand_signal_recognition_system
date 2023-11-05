@@ -12,6 +12,7 @@ robot control system based on hand signal(ex. airport) recognition
    <img src = "https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/91695124-abfc-46d5-a865-38b4878fe071">
    <img src = "https://github.com/Intel-Edge-AI-SW-Developers-2nd-Team-1/HandSignalRecognitionSystem/assets/45201672/a244eb5d-c6be-4d21-ba81-97ba84b17ce2">
 </div>
+
 ## contributors
 
 **김영대**
