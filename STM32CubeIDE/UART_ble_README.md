@@ -51,7 +51,7 @@ MCU : STM32F429 NUucleo-144
 
 GPIO settings를 확인하여 Rx핀과 Tx핀의 위치를 확인한다.
 <br>
-![GPIO](/assets/images/UART_GPIO)
+![GPIO](/assets/images/UART_GPIO.png)
 <br>
 우리는 Rx핀이 PA3이고 Tx핀이 PD5이다. 
 
