@@ -189,3 +189,4 @@ class PatternRecognition:
         elif ptrn == 4: print("Go Straight")
         elif ptrn == 5: print("Pause")
         #else: print("Not Found")
+        return ptrn
