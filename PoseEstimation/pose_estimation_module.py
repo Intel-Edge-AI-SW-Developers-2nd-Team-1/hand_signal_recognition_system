@@ -157,6 +157,7 @@ class PoseEstimation:
                 # bt 잡혔으면  보내는 코드
                 if ptrn:
                     bt07socekt.send("order " + str(ptrn) + "\r\n")
+                    print("order " + str(ptrn))
 
             # 'q' 키를 누르면 종료
             if cv2.waitKey(1) & 0xFF == ord('q'):
