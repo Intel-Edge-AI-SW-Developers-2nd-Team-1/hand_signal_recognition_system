@@ -15,31 +15,31 @@ robot control system based on hand signal(ex. airport) recognition
 
 ## contributors
 
-**김영대**
+**yeongdaekim(roby238)**
 - Project Leader
 - Git Manager
 - Pattern Recognition Algorithm
 - Create Deliverables for Develop
 
-**안석현**
+**User3198352(User3198352)**
 - Project Communication
 - System Integration
 - Image Processing for Pose Estimaion
 - Create Deliverables for Develop
 
-**권춘구**
+**Daniel(kcg0118)**
 - Client Action
 - Create Deliverables for Communication
   
-**안현홍**
+**simpleis6est(simpleis6est)**
 - Client Rx
 - Create Deliverables for Develop
 
-**박재병**
+**Park JaeByeong(pjb8051)**
 - Hardware
 - Create Deliverables for Develop 
   
-**한정재**
+**jungjaeJJ(jungjaeJJ)**
 - Server Tx
 - Create Deliverables for Develop 
 
