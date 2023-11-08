@@ -41,8 +41,6 @@ MCU : STM32F429 NUucleo-144
 
 
 ## STM32CubeIDE Setting
-1. UART Setting
-<br>
 ![params](/assets/images/UART_MX_Param_settings.png)
 <br>
 위 사진에서 보듯이 connectivity - USART2 - Parameter settings에서 Baud Rate값을 9600 Bits/s로 변경해 주었다.
@@ -50,7 +48,7 @@ MCU : STM32F429 NUucleo-144
 또, NVIC settings에서 global interrupt를 활성화 시켜준다
 
 GPIO settings를 확인하여 Rx핀과 Tx핀의 위치를 확인한다.
-<br>
+
 ![GPIO](/assets/images/UART_GPIO.png)
 <br>
 우리는 Rx핀이 PA3이고 Tx핀이 PD5이다. 
