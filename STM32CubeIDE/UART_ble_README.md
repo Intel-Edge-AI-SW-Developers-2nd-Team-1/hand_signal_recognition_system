@@ -12,7 +12,7 @@ UART는 일반적으로 EIA RS-232, RS-422, RS-485와 같은 통신 표준과 �
 비동기 통신이므로 동기 신호가 전달되지 않는다. 따라서 수신 쪽에서 동기신호를 찾아내어 데이터의 시작과 끝을 시간적으로 알아 처리할 수 있도록 약속되어 있다.
 
 ## 데이터 송수신 형태
-![데이터 송수신 형태]("assets/images/UART.png")
+![데이터 송수신 형태](/assets/images/UART.png)
 
 가장 일반적으로 각 데이터 비트의 시간에 대해 16/64 배 빠른 클럭 신호를 이용하여 시작 비트로부터 세어 각 비트의 경계를 찾아낸다.
 보드 설정에 따라 주 클럭으로부터 타이머등을 써서 설정한 속도의 클럭 신호를 만든다.
@@ -23,7 +23,7 @@ UART는 일반적으로 EIA RS-232, RS-422, RS-485와 같은 통신 표준과 �
 + 패리티 비트 : 오류 검증을 하기 위한 패리티 값을 생성하여 송신하고 수신쪽에 오류 판단한다. 사용안함, 짝수, 홀수 패리티 등의 세가지 옵션으로 해당 레지스터 설정에 따라 선택할 수 있다. '사용안함'을 선택하면 이 비트가 제거된다.
 + 끝 비트 : 통신 종료를 알린다. 세가지의 정해진 비트 만큼 유지해야 한다. 1, 1.5, 2비트로 해당 레지스터 설정에 따라 결정된다.
 
-![Rx-Tx]("assets/images/UART_tx_rx.png")
+![Rx-Tx](/assets/images/UART_tx_rx.png)
 <br>
 위의 그림에서 보이는것처럼 UART는 주로 디바이스와 디바이스간에 혹은 디바이스와 컴퓨터간에 1:1 통신을 하기위하여 사용되며 송신라인과 수신라인이 따로 있어 동시에 송수신이 가능하다.  
 
@@ -43,7 +43,7 @@ MCU : STM32F429 NUucleo-144
 ## STM32CubeIDE Setting
 1. UART Setting
 <br>
-![params]("assets/images/UART_MX_Param_settings.png)
+![params](/assets/images/UART_MX_Param_settings.png)
 <br>
 > 위 사진에서 보듯이 connectivity - USART2 - Parameter settings에서 Baud Rate값을 9600 Bits/s로 변경해 주었다.
 
@@ -51,7 +51,7 @@ MCU : STM32F429 NUucleo-144
 
 GPIO settings를 확인하여 Rx핀과 Tx핀의 위치를 확인한다.
 <br>
-![GPIO]("assets/images/UART_GPIO")
+![GPIO](/assets/images/UART_GPIO)
 <br>
 우리는 Rx핀이 PA3이고 Tx핀이 PD5이다. 
 
