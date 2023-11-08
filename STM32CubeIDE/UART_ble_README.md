@@ -45,7 +45,7 @@ MCU : STM32F429 NUucleo-144
 <br>
 ![params](/assets/images/UART_MX_Param_settings.png)
 <br>
-> 위 사진에서 보듯이 connectivity - USART2 - Parameter settings에서 Baud Rate값을 9600 Bits/s로 변경해 주었다.
+위 사진에서 보듯이 connectivity - USART2 - Parameter settings에서 Baud Rate값을 9600 Bits/s로 변경해 주었다.
 
 또, NVIC settings에서 global interrupt를 활성화 시켜준다
 
