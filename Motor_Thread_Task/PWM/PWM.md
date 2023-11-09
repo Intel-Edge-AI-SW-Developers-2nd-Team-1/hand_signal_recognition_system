@@ -3,7 +3,8 @@
 - STM32 에서의 PWM 제어
 - PWM이란?
 
-![Alt text](<스크린샷 2023-11-08 065324.png>)
+![스크린샷 2023-11-08 065324](https://github.com/simpleis6est/HandSignalRecognitionSystem/assets/143490860/a864fc83-c2ad-4d52-9ff6-fcafb4630718)
+
 ```
 PWM은 Pulse Width Modulation의 약자로 일정한 주기 내에 Duty 비를 변경하여 평균 전압을 제어하는 방법입니다. 이러한 방법을 이용해서 상기 프로젝트에 사용할 Servo Motor의 속도,각을 제어할 수 있습니다.
 
