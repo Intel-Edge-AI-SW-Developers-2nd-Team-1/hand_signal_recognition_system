@@ -20,16 +20,16 @@ RTOS.md
 
 ### Cube MX Setting for Motor_controller
 - RTOS 및 Timer setting
-```
-사진
-```
-```
+
+![스크린샷 2023-11-08 003054](https://github.com/simpleis6est/HandSignalRecognitionSystem/assets/143490860/aa466d49-7c99-45e1-9856-d10c309aab71)
+
+
+
 설명
-```
+
 ### Working flowchart
-```
-사진
-```
+
+![스크린샷 2023-11-08 012720](https://github.com/simpleis6est/HandSignalRecognitionSystem/assets/143490860/edfb59f4-9069-4fa0-a151-00079da11235)
 
 ### To Do List
 ```
