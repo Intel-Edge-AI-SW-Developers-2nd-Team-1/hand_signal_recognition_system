@@ -2,7 +2,8 @@
 -------------------------------------------------------------------------------------
 - STM32 에서의 TIMER
 
- ![Alt text](<스크린샷 2023-11-08 023134-1.png>)
+![스크린샷 2023-11-08 023134](https://github.com/simpleis6est/HandSignalRecognitionSystem/assets/143490860/c32e3543-810b-4b16-bf6b-9fd0b2156c0e)
+
 
 (출처: STM32/Products Specification)
 ```
@@ -25,7 +26,8 @@ Basic Timer는 시간에 따라서 Counter가 증가하는 형식인 time base g
 ⓒ PWM 모드 : Edge Aligened 또는 Center Aligned PWM 파형 생성 수행합니다.
 
 ```
-![Alt text](<스크린샷 2023-11-08 024008-1.png>)
+![스크린샷 2023-11-08 024008](https://github.com/simpleis6est/HandSignalRecognitionSystem/assets/143490860/1f7dd85a-e6ef-4113-994e-9aa6340f2ffd)
+
 (출처: user/stm32_pj_main함수_screenshot)
 
 ```
@@ -46,9 +48,9 @@ Basic Timer는 시간에 따라서 Counter가 증가하는 형식인 time base g
 
 ```
 - Timer (ARR picture)
-```
-사진
-```
+
+![스크린샷 2023-11-08 065324](https://github.com/simpleis6est/HandSignalRecognitionSystem/assets/143490860/81c8d842-ba7f-4629-ade8-2bb7fe1503ba)
+
 - Interrupt Timer
 
 ```
