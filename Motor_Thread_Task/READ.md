@@ -20,7 +20,7 @@ RTOS.md
 
 ### SG90 Data Sheet(360 Degree)
 
-![스크린샷 2023-11-08 014413](https://github.com/simpleis6est/HandSignalRecognitionSystem/assets/143490860/0a9ee7d3-2c93-4530-a8a7-c7a187d556ee)
+
 
 ### Cube MX Setting for Motor_controller
 - RTOS 및 Timer setting
