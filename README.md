@@ -1,6 +1,6 @@
 # Project : 수신호 기반 로봇 제어
 
-(https://github.com/simpleis6est/HandSignalRecognitionSystem/blob/main/Result_img/back.gif)
+![back](https://github.com/simpleis6est/How-to-using-Git-Github/assets/143490860/c2fc94b1-f2c7-4c10-baca-38c213f443d4)
 
 (https://github.com/simpleis6est/HandSignalRecognitionSystem/blob/main/Result_img/back(com).gif)
 
