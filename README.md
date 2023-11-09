@@ -1,4 +1,9 @@
 # Project : 수신호 기반 로봇 제어
+
+![back](https://github.com/simpleis6est/How-to-using-Git-Github/assets/143490860/c2fc94b1-f2c7-4c10-baca-38c213f443d4)
+
+![back(com)](https://github.com/simpleis6est/How-to-using-Git-Github/assets/143490860/26f9212e-f54b-4a87-a935-1590331f6bca)
+
 robot control system based on hand signal(ex. airport) recognition
 
 수신호 중인 대상을 카메라로 촬영하여 Pose estimaion 후 분석하여 현재 어떤 수신호인지 판별
