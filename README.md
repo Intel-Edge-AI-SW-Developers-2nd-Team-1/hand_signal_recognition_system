@@ -2,7 +2,7 @@
 
 ![back](https://github.com/simpleis6est/How-to-using-Git-Github/assets/143490860/c2fc94b1-f2c7-4c10-baca-38c213f443d4)
 
-(https://github.com/simpleis6est/HandSignalRecognitionSystem/blob/main/Result_img/back(com).gif)
+![back(com)](https://github.com/simpleis6est/How-to-using-Git-Github/assets/143490860/26f9212e-f54b-4a87-a935-1590331f6bca)
 
 robot control system based on hand signal(ex. airport) recognition
 
